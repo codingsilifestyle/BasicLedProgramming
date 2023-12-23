@@ -1,4 +1,4 @@
-#include <Adafruit_NeoPixel.h>
+#include <15.h>
 
 #define PIN 13         // input pin Neopixel is attached to
 #define NUMPIXELS 30    // number of neopixels in strip
@@ -18,7 +18,7 @@ void loop() {
     // Set the pixels for the first snake as red
     for (int j = 0; j < 5; j++) {
       int pixelIndex = (i + j) % NUMPIXELS;
-      pixels.setPixelColor(pixelIndex, pixels.Color(32,32 , 32));
+      pixels.setPixelColor(pixelIndex, pixels.Color(153,0 , 0));
     }
 
     // Set the gap between the snakes as black
