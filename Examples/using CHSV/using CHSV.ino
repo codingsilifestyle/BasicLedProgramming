@@ -6,7 +6,10 @@
 CRGB Leds[NUMLEDS];
 //we using unit8_t to rane between 0 - 255
 uint8_t hue = 0;
+
+/////////////////////////////////////////////////////////////
 //we usig radom8() cause it faster than standard random() funcation and it give us number between 0 - 255 and this what we want
+///////////////////////////////////////////////////////////////
 
 void setup() {
   // put your setup code here, to run once:
